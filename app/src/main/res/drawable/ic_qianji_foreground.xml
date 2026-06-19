@@ -3,17 +3,12 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- 银行建筑立面: 三角山墙 + 立柱 + 台基 (建筑风 + 记账/金融) -->
+    <!-- 钱记: 白色人民币符号 ¥, 简洁现代 -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M54,32 L31,48 L77,48 Z" />
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M30,49 H78 V54 H30 Z" />
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M34,56 H39 V73 H34 Z M45,56 H50 V73 H45 Z M56,56 H61 V73 H56 Z M67,56 H72 V73 H67 Z" />
-    <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M28,75 H80 V81 H28 Z" />
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M37,30 L54,53 L71,30 M54,53 L54,82 M37,61 H71 M37,71 H71" />
 </vector>

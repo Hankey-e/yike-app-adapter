@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 钱记 应用内图标: 绿色渐变圆角底 + 白色 ¥, 与桌面启动图标一致 -->
+    <path android:pathData="M26,2 H82 A24,24 0 0 1 106,26 V82 A24,24 0 0 1 82,106 H26 A24,24 0 0 1 2,82 V26 A24,24 0 0 1 26,2 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0" android:startY="0"
+                android:endX="108" android:endY="108"
+                android:startColor="#2AC9FF"
+                android:endColor="#7B61FF" />
+        </aapt:attr>
+    </path>
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M37,30 L54,53 L71,30 M54,53 L54,82 M37,61 H71 M37,71 H71" />
+</vector>
